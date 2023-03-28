@@ -14,7 +14,9 @@ pipeline {
 		docker.withTool('docker'){
 
 
+
         
+	
             sh script: '''
 docker build -t artifactory.dagility.com/docker/ghvp-bs-backend:latest .
 ''', label: 'dcbcae'
