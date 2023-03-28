@@ -2,6 +2,7 @@ image:
   repository: artifactory.dagility.com/docker/ghvp-bs-backend
   tag: latest
   pullPolicy: Always
+  
 ingress:
   enabled: true
   annotations:
