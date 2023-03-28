@@ -10,5 +10,6 @@ ingress:
   - host: ghvp-bs-backend-habitat-development.dagility.com
     paths:
     - /
+    
 serviceAccount:
   create: false
